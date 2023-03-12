@@ -1,0 +1,116 @@
+/* This is comment in css*/
+div.container
+{
+    border-color: blue;
+    border-width: 3px;
+    border-radius: 10px;
+    border-style: solid;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 10px;
+    width: 80%;
+    height: auto;
+}
+div.header
+{
+    height: 50px;
+    border-color: aqua;
+    border-width: 3px;
+    border-style: solid;
+}
+div.navigation
+{
+    border-width: 3px; 
+    border-color: brown; 
+    border-style: solid;
+    height: 30px;
+}
+div.section
+{
+    border-width: 3px; 
+    border-color: chartreuse; 
+    border-style: solid;
+    height: auto; 
+    display: flex;
+}
+div.aside
+{
+    border-width: 2px; 
+    border-color: cornflowerblue; 
+    border-style: solid;
+    height: auto; width: 200px;
+}
+div.content
+{
+    border: 2px solid darkslateblue;
+    height: auto; width: 100%;
+    display: flex; flex-wrap: wrap;    
+    background-image: url(../images/bg.png);
+    background-repeat: repeat;
+}
+
+div.product
+{
+    border-width: 2px; 
+    border-color:red; 
+    border-style: dotted; 
+    height: 180px; width: 180px;
+    margin: 30px;
+    border-radius: 10px;
+}
+
+div.footer
+{
+    height: auto;
+    text-align: center;
+    font-size: 18px;
+}
+
+nav
+{
+    margin: 5px; 
+    text-align: right;
+}
+
+ul
+{
+    line-height: 40px; 
+    font-size: 20px; 
+    list-style-image: url(../images/phone.png);
+}
+
+li a:link
+{
+    font-weight: bold;
+    color: brown;
+    text-decoration: none;
+}
+
+li a:hover
+{
+    color: cornflowerblue;
+    font-style: italic;
+    font-size: 22px;
+}
+
+div.product img
+{
+    opacity: 0.5;
+}
+
+div.product img:hover
+{
+    opacity: 1.0;
+}
+
+div.product:hover
+{
+    border: 3px solid #777;   
+}
+
+div.desc
+{
+    padding-top: 5px;
+    text-align: center;  
+    font-weight: bold;  
+}
